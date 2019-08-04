@@ -105,8 +105,8 @@ rm(wanted_cols)
 #write out dataset
 if(!file.exists("./summary")) { dir.create("./summary")}
 
-##CAUTION these columns names may not be syntactically correct so meed to be coerced before use
-write.table(names(summary_dataset), file="./summary/summary_fields.txt",sep=" ",row.names=FALSE,col.names=FALSE)
+## Write full dataset
+write.table(summary_dataset, file="./summary/summary_full.txt",sep=" ",row.names=FALSE,col.names=FALSE)
 
 summary_subjects <- summary_dataset$Subject
 summary_dataset$Subject <- NULL

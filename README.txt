@@ -79,13 +79,15 @@ The dataset includes the following files:
 
 - 'run_analysis.R' an R script which taking the original data set processes it to produce the new summary dataset. The R scripts working directory should be the top directory of the extracted zip file of the original data.
 
+- 'summary_full.txt' is a unstripped version of the data table
+
 Processing steps
 =========================================
 1. Relieve the dataset UCI HAR dataset.zip from the supplied link
 
 2. Unzip the Data set
 
-3. Instal teh R Script  run_analysis.R in top directory, usually "UCI HAR Dataset"
+3. Instal the R Script  run_analysis.R in top directory, usually "UCI HAR Dataset"
 
 4. The R Script will request the libraries "data.table" and "dplyr" to be available
 
@@ -96,6 +98,7 @@ summary.txt
 summary_field.txt
 summary_activity.txt
 summary_subject.txt
+summary_full.txt 
 
 7. Note - the variable names used in the columns as in summary_field.txt are readable but not syntactically correct and either need to be or will be coerced to correct before use. 
 
