@@ -55,7 +55,7 @@ The subset of Subject, Activities by name and the subset of mean and standard de
 
 This subset of data was the basis for the subsequent analysis.
 
-The analysis collapsed teh data to provide a mean for was of the remaining data variables summarized by Subject and Activity pairs. This collapsed the original measurements to a table of 180 entries representing 6 activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) per test subject.
+The analysis collapsed the data to provide a mean for each of the remaining data variables summarized by Subject and Activity pairs. This collapsed the original measurements to a table of 180 entries representing 6 activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) per test subject.
 
 For each record it is provided:
 - An identifier of the subject who carried out the experiment.
@@ -68,6 +68,8 @@ The dataset includes the following files:
 - 'README.txt'
 
 - 'Original_README.txt' a copy of the original README.txt file describing the original data
+
+- 'CodeBook.txt' a description of the data in the summary dadset
 
 - 'summary.txt' the data set is a 180 row set of 79 variable which  are means of values which were normalized and bounded within [-1,1].
 
