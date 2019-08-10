@@ -36,7 +36,7 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 ===================================================================
 
 
-In the original analysis teh dates was separated in to two a test dataset and a training dataset. No specific different processing was performed on the two data sets so this project starts by recombining them back in to the original complete dataset.
+In the original analysis the data was separated into two a test dataset and a training dataset. No specific different processing was performed on the two data sets so this project starts by recombining them back in to the original complete dataset.
 
 The data was in a number of files:
 1.subject_dataset.txt - a list of the subject identifier (integer)
@@ -89,7 +89,7 @@ Processing steps
 
 2. Unzip the Data set
 
-3. Instal the R Script  run_analysis.R in top directory, usually "UCI HAR Dataset"
+3. Install the R Script  run_analysis.R in top directory, usually "UCI HAR Dataset"
 
 4. The R Script will request the libraries "data.table" and "dplyr" to be available
 
