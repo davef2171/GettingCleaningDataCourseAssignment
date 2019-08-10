@@ -106,7 +106,7 @@ rm(wanted_cols)
 if(!file.exists("./summary")) { dir.create("./summary")}
 
 ## Write full dataset
-write.table(summary_dataset, file="./summary/summary_full.txt",sep=" ",row.names=FALSE,col.names=FALSE)
+write.table(summary_dataset, file="./summary/summary_full.txt",sep=" ",row.names=FALSE,col.names=TRUE)
 
 summary_subjects <- summary_dataset$Subject
 summary_dataset$Subject <- NULL
@@ -119,4 +119,4 @@ write.table(summary_activity, file="./summary/summary_activity.txt",sep=" ",row.
 ##CAUTION these columns names may not be syntactically correct so meed to be coerced before use
 write.table(names(summary_dataset), file="./summary/summary_fields.txt",sep=" ",row.names=FALSE,col.names=FALSE)
 
-write.table(summary_dataset, file="./summary/summary.txt",sep=" ",row.names=FALSE,col.names=FALSE)
+write.table(summary_dataset, file="./summary/summary.txt",sep=" ",row.name=FALSE,col.names=FALSE)
